@@ -1,0 +1,199 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+ 
+ header{
+    position: fixed; 
+    top: 0;
+    background-color: #002A5C;
+    width: 100%;
+    display: flex;  
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 1;
+    color: white;
+    
+}
+
+header img{
+    width: 25%;
+    padding: 1%;
+}
+
+nav{
+    width: 75%;
+}
+
+nav ul{
+     list-style: none;
+     display: flex;
+     justify-content: space-evenly;
+     
+
+}
+
+.nav-link{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.nav-link:hover{
+    text-decoration: underline;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30%;
+}
+
+h1{
+    text-align: center;
+}
+
+#products{
+    display: flex;
+    flex-direction: column;
+}
+
+#products h2{
+    text-align: center;
+}
+
+.item{
+    background-color: lightgrey;
+    border: 1px solid black;
+    width: 300px;
+    height: 500px;
+    margin: 1%;
+    margin-top: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item img{
+    margin-top: 2%;
+    max-width: 50%;
+    
+}
+
+.item h2,.item p{
+    text-align: center;
+    padding: 1%;
+}
+
+.item p{
+   font-size: 14px;
+}
+
+#about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6%;
+    text-align: center;
+}
+
+#contact h3{
+    text-align: center;
+}
+
+footer{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    padding: 1%;
+}
+
+footer p {
+    font-size: 16px;
+}
+
+
+
+@media screen and (min-width:768px){
+
+main{
+    padding: 30%;
+}
+
+iframe{
+    width: 500px;
+}
+
+.item{
+   
+    width: 400px;
+    height: 500px;
+    margin: 1%;
+    margin-top: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+}
+
+@media screen and (min-width:1024px){
+
+header img{
+    width: 10%;
+}
+
+nav{
+    width: 90%;
+}
+.nav-link{
+    font-size: 20px;
+}
+
+main{
+    padding: 12%;
+}
+
+iframe{
+    width: 700px;
+}
+
+
+#products{
+   
+    flex-direction: row;
+}
+
+.item{
+    margin-top: 5%;
+}
+
+.item{
+   
+    width: 400px;
+    height: 460px;
+    margin: 1%;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item img{
+    margin-top: 2%;
+    max-width: 50%;
+    
+}
+
+.item h2,.item p{
+    text-align: center;
+    padding: 1%;
+}
+    
+}
+
